@@ -1,0 +1,416 @@
+.main-img {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.main-container {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.indv img {
+  height: 10vh;
+}
+
+.postheadinsection{
+  padding-top: 1.4rem;
+}
+
+.bupName{
+  color: #01017a;
+  font-weight: bold;
+}
+.topadvert {
+  height: 40vh;
+  width: 800px;
+  margin: auto auto;
+  overflow: auto;
+}
+
+.wrappera-f a, .aldjdbdlink a{
+  text-decoration: none !important;
+  color: #01017a;
+}
+.topadvert::-webkit-scrollbar {
+  display: none;
+}
+
+.handleaksks{
+  gap: 10px;
+  display: flex;
+}
+
+.sharepostsection{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  padding: 1rem 0;
+}
+
+.iconatiner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.maindisplaylayss{
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+
+.addswrapper{
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  gap: 5px;
+}
+
+.imagesection img {
+  width: 100% !important;
+}
+
+.imagesection video {
+    width: 20rem !important;
+    height: 18rem !important;
+    position: relative !important;
+    -o-object-fit: cover !important;
+    object-fit: cover !important;
+}
+
+.allsecrion{
+  background-color: #01017a;
+  color: white;
+  margin: 0.5rem;
+  padding: 0.6rem;
+  border-radius: 4px;
+}
+
+.video-container video{
+  max-height: 400px !important;
+}
+.headersection{
+  display: flex;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  background-color: rgb(15, 15, 96);
+  color: white;
+}
+
+.postitem{
+  height: 40vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+}
+
+video{
+  max-height: 500px !important;
+}
+.titlesection{
+  position: absolute;
+  bottom: 0;
+  padding: 1rem 0.6rem;
+  font-size: 0.9rem;
+  font-weight: bolder;
+  background-color: rgba(15, 15, 96, 0.461);
+  width: 100%;
+}
+.toshow{
+    display: none;
+}
+
+.adverstserct{
+  background-color: aliceblue;
+  max-width: 800px;
+  margin: 1rem auto;
+  height: 30vh;
+
+}
+
+.adverstserct2{
+  background-color: aliceblue;
+  max-width: 950px;
+  margin: 1rem auto;
+  height: 50vh;
+
+}
+video::-webkit-media-controls-start-playback-button {
+  display: none;
+}
+.wrappera-f{
+  padding: 0.5rem;
+  border-bottom: 0.1rem solid #01017a;
+}
+
+.wrappera-f-new{
+  padding: 0.5rem;
+ 
+}
+
+.wrappera-f-new a{
+  text-decoration: none;
+  color: #01017a;
+}
+
+.wrappera-f a{
+  text-decoration: none;
+  color: #01017a;
+}
+
+.headinisectim h1{
+  color: goldenrod;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  text-transform: capitalize;
+
+}
+
+.leatestnewssection{
+  padding: 0.3rem;
+}
+
+.authboandd{
+  clip-path: polygon(25% 0%, 100% 0, 100% 100%, 25% 100%, 0% 50%);
+  padding: 1rem;
+  background-color: #01017a;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+.authboandd span{
+
+  font-size: 0.8rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  
+}
+
+.headingtesn{
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.heading p{
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.dateandtuoe{
+  font-size: 0.8rem;
+  padding-bottom: 0.6rem;
+}
+
+.postheaderholder{
+  display: grid;
+  grid-template-columns: 25% 48% 25%;
+  gap: 10px;
+}
+
+.allknowauth {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.imaescti img{
+  width: 100%;
+  max-height: 500px;
+}
+
+.postall{
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  
+}
+
+.titiolsecalls p{
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin: 0 !important;
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+}
+
+.titiolsec p{
+  font-size: 1.4rem;
+  font-weight: bolder;
+  margin: 0 !important;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+
+.allconajheb{
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin: 0 !important;
+  text-transform: capitalize !important;
+  padding-bottom: 1rem;
+}
+
+.imagesection{
+  font-size: 2rem;
+}
+
+.aimaside{
+  width: 100%;
+  max-height: 700px;
+}
+
+.isHidend{
+  display: none;
+}
+
+.postheaderholder1{
+  max-width: 900px;
+  margin: auto auto;
+}
+
+.postheaderholder2{
+  
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:30px
+}
+
+.trendingnrewsc{
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+.aldjdbdlink a{
+  list-style-type: none;
+}
+
+.imagesectionthe{
+  font-size: 2rem;
+}
+
+
+.flexallvideo{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+ 
+}
+
+.gallery{
+  margin: 1rem 2rem;
+}
+
+
+.postsecall a button{
+  background-color: #01017a8f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 1rem 0;
+  padding: 0.4rem 1rem;
+  text-align: center;
+}
+
+.headersecjdjdgallry{
+  background-color: #01017a;
+  color: white;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.video-container >a {
+
+}
+
+.newCategory{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+@media screen and (max-width: 920px) {
+   
+    .iconatiner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+      }
+
+      .maindisplaylayss{
+        display: grid;
+        grid-template-columns: 100%;
+      }
+
+
+      .newCategory{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+      }
+      .postheaderholder{
+        display: grid;
+        grid-template-columns: 40% 52%;
+        gap: 10px;
+      }
+
+      .trendingnrewsc{
+        display: none;
+      }
+}
+
+@media screen and (max-width: 720px) {
+   
+    .iconatiner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+      }
+
+      .adleftsectrion{
+        display: none;
+      }
+
+      .trendingnrewsc{
+        display: block;
+      }
+
+      .recentpost{
+        padding: 1rem;
+      }
+      .leatestnewssection{
+        display: none;
+      }
+
+     .postheaderholder{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 10px;
+      }
+
+      .postheaderholder2{
+        max-width: 900px;
+        margin: auto auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      .newCategory{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+      }
+}

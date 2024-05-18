@@ -1,0 +1,82 @@
+.post-container {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  label {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .post-container input,
+  .post-container textarea {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .post-container button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .post-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Customize React Quill styles */
+  .ql-editor {
+    min-height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .ql-container {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .ql-snow {
+    background-color: #fff;
+  }
+
+  .createpostrapper{
+  
+    margin: 3rem ;
+    /* height: 100vh; */
+    overflow-y: auto
+
+  }
+
+  .createpostrapper::-webkit-scrollbar{
+    display: none;
+
+  }
+  
+
+
+  @media only screen and (max-width: 600px) {
+    .post-container {
+      padding: 0px;
+    }
+
+    .createpostrapper{
+      margin: 0.4rem ;
+      /* height: 100vh; */
+      overflow-y: auto
+  
+    }
+  }
+  
+ 

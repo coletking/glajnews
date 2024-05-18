@@ -1,0 +1,258 @@
+.navbar {
+  background: white;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.topmaendue {
+  background-color: #002e5f;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactis {
+  display: flex;
+}
+
+.aldjdd button {
+  background-color: goldenrod;
+  color: #002e5f;
+  border: none;
+  border-radius: 4px;
+  padding: 0.4rem 1rem;
+}
+
+.iconsectuon {
+  margin-left: 0.5rem;
+}
+.navbar-logo img {
+  height: 7rem;
+  flex-shrink: 0;
+  margin-left: 2rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(11, auto);
+  grid-gap: 5px;
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.nav-links-active {
+  color: goldenrod !important;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links-activ > a {
+  color: goldenrod;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+  color: #e80707;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+  color: black;
+  display: none;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+.nav-item > a button {
+  background-color: #002e5f;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.allalllinkflxe {
+  display: flex;
+}
+
+.allalllinkflxe a {
+  margin-right: 0.5rem;
+  color: white;
+}
+.nav-item > a button:hover {
+  background-color: #e80707;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+}
+
+.alsk {
+  position: relative;
+}
+
+.alsk button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: goldenrod;
+  border: none;
+  font-size: 0.8rem;
+  border-radius: 10px 0 0 10px;
+  color: white;
+}
+.alsk input {
+  width: 300px !important;
+  font-size: 1rem;
+}
+
+.alsk input:active {
+  outline: none;
+}
+
+.alsk input::after {
+  outline: none;
+}
+.alsk input:focus {
+  outline: none;
+}
+@media screen and (max-width: 1340px) {
+  .NavbarItems {
+    position: relative;
+  }
+
+  ul {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .contactis{
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    margin-bottom: 3rem;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: #002e5f;
+    left: 0px;
+    position: absolute;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    margin-top: 2rem;
+  }
+
+  .nav-links {
+    text-align: start;
+    padding: 1.4rem 1rem;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 100%;
+  }
+
+  .nav-links:hover {
+    color: #e80707;
+    border-radius: 0;
+  }
+
+  .nVmenu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: black;
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background: #1888ff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .nav-links-mobile:hover {
+    background: #fff;
+    color: #1888ff;
+    transition: 250ms;
+  }
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .alsk input {
+    width:100% !important;
+    font-size: 1rem;
+  }
+
+.aldjdd button{
+font-size: 0.7rem;
+}
+.topmaendue{
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+}

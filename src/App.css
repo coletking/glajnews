@@ -36,3 +36,98 @@
     transform: rotate(360deg);
   }
 }
+
+
+a{
+  list-style-type: none;
+
+}
+.loadingcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: #111;
+  background-color: #fff;
+}
+
+.indv{
+  padding: 1rem;
+}
+
+.dshbaja{
+  color: #ed1864;
+  cursor: pointer;
+  padding: 2rem;
+}
+
+.welcomegrand{
+  padding: 1rem 0;
+}
+
+.welcomechil a{
+  color: #ed1864 !important;
+}
+
+.imageside img {
+   box-shadow: 10px 10px 5px 0px white;
+   -webkit-box-shadow: 10px 10px 5px 0px white;
+   -moz-box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.75);
+   margin: 24px;
+   height: 7.5rem;
+   animation: flickerAnimation 4s infinite;
+   -webkit-animation: flickerAnimation 4s infinite;
+   -moz-animation: flickerAnimation 4s infinite;
+   -o-animation: flickerAnimation 4s infinite;
+}
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+.welcome1{
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #111111;
+  color: white;
+}
+
+.restbuton{
+  margin-top: 1rem;
+}
+
+.restbuton button{
+  border: none;
+  border-radius: 5px;
+  background-color: #ed1864;
+  color: white;
+  padding: 0.43rem 1rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+
+
