@@ -1,5 +1,5 @@
 # how to run code
-just  npm run i 
+just  npm install
 
 then to start the project run npm run start
 
