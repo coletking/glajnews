@@ -1,3 +1,13 @@
+# how to run code
+just  npm run i 
+
+then to start the project run npm run start
+
+then to deploy
+
+1. login to firebase cli using firebase login (follow the instruction)
+2. run deploy_prod script
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
