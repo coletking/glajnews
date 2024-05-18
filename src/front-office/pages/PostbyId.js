@@ -32,7 +32,7 @@ function PostByID() {
   const [allPost, setAllPost] = useState([]);
   const [imagepost, setImagepost] = useState([]);
   const [category, setcategorypost] = useState([]);
-  const [recentpost, setRecentPost] = useState([]);
+  const [recentpostnew, setRecentPost] = useState([]);
   const [normal,setNormalNews] =  useState([])
   const params = useParams().id;
 
@@ -58,12 +58,10 @@ function PostByID() {
       setpost(val[0]);
       const cat = val[0]
       const params = cat.category
-      getPostsbyCateories(params, (post) => {
-        const recentTrendingPost = post.filter(
-          (e) => e.Blogtype === "Trending" && e.fileType !== "video"
-        );
+      getPostsbyCateories(params, (catpost) => {
+    
         const recentPost =
-          recentTrendingPost.length > 0 ? recentTrendingPost[0] : [];
+        catpost.length > 0 ? catpost : [];
         setRecentPost(recentPost);
       });
       // eslint-disable-next-line no-undef
@@ -304,12 +302,12 @@ function PostByID() {
                     <div className="headinisectim">
                       <h1>
                         {" "}
-                        <VscDebugBreakpointData /> {recentpost.category} News
+                        <VscDebugBreakpointData /> {post.category} News
                       </h1>
                       <hr />
                       <div className="postsecall0000">
                         <div className="newCategory">
-                          {imagepost.slice(0, 100).map((post, id) => {
+                          {recentpostnew.slice(0, 100).map((post, id) => {
                             return (
                               <>
                               <div className="" key={id}>
